@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include defence_offset_compliance *.css
+recursive-include defence_offset_compliance *.csv
+recursive-include defence_offset_compliance *.html
+recursive-include defence_offset_compliance *.ico
+recursive-include defence_offset_compliance *.js
+recursive-include defence_offset_compliance *.json
+recursive-include defence_offset_compliance *.md
+recursive-include defence_offset_compliance *.png
+recursive-include defence_offset_compliance *.py
+recursive-include defence_offset_compliance *.svg
+recursive-include defence_offset_compliance *.txt
+recursive-exclude defence_offset_compliance *.pyc
